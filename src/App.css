@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: rgb(217, 85, 80);
-  margin: auto;
+  /* margin: auto; */
 }
 
 .Header {
@@ -9,7 +9,9 @@
   width: auto;
   justify-content: space-around;
   align-items: center;
-  height: 50px;
+  padding: 0px 12px;
+  max-width: 700px;
+  margin: auto;
 }
 
 .title {
@@ -17,12 +19,13 @@
 }
 
 .group-button-timer {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .timer-area {
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 13px;
+  padding: 20px;
   position: inherit;
   max-width: 500px;
   margin: auto;
@@ -35,6 +38,13 @@
   color: rgba(255, 255, 255);
 }
 
+.list {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
 button {
   width: 100px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -42,4 +52,6 @@ button {
   border: none;
   margin: 2px;
   margin: 3px;
+  cursor: pointer;
+  border-radius: 3px;
 }

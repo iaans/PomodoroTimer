@@ -2,7 +2,7 @@ import { Button } from "antd";
 import "antd/dist/antd.css";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="Header">
@@ -24,8 +24,18 @@ function App() {
 
         <Button>Start</Button>
       </div>
+      <div>
+        <h3>#1</h3>
+        <h4>Time to focus!</h4>
+        <button>Add task</button>
+      </div>
+      <div className="list">
+        <ol>
+          <li>Estudar para a Prova de Biologia</li>
+          <li>Revisar a matéria de Quimíca</li>
+          <li>Estudar para a Prova de História</li>
+        </ol>
+      </div>
     </div>
   );
 }
-
-export default App;
