@@ -13,7 +13,7 @@ export const HeaderContainer = styled.div`
 export const HeaderButtons = styled.button`
   width: 100px;
   background-color: rgba(255, 255, 255, 0.2);
-  color: white;
+  color: #ff0000;
   border: none;
   margin: 2px;
   margin: 3px;

@@ -1,5 +1,6 @@
-import { Button } from "antd";
+import { Button } from "react-bootstrap";
 import {
+  ButtonsArea,
   ContentLabel,
   LabelH3,
   LabelH4,
@@ -11,20 +12,20 @@ import {
 const TimerArea = () => {
   return (
     <TimerAreaContainer>
-      <Button className="group-button-timer">Pomodoro</Button>
-      <Button className="group-button-timer">Short Break</Button>
-      <Button className="group-button-timer">Long Break</Button>
+      <ButtonsArea>
+        <Button variant="outline-primary">Pomodoro</Button>
+        <Button variant="outline-primary">Short Break</Button>
+        <Button variant="outline-primary">Long Break</Button>
+      </ButtonsArea>
 
       <Timer> 25:00 </Timer>
-      <Button>Start</Button>
-
+      <Button variant="danger">Start</Button>
       <ContentLabel>
         <LabelH3>#1</LabelH3>
 
         <LabelH4>Time to focus!</LabelH4>
-        <Button>Add task</Button>
+        <Button variant="danger">Add task</Button>
       </ContentLabel>
-
       <TaskList>
         <ol>
           <li>Estudar para a Prova de Biologia</li>

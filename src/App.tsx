@@ -1,5 +1,3 @@
-/* eslint-disable react/jsx-no-undef */
-import "antd/dist/antd.css";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
